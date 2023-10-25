@@ -1,7 +1,7 @@
 ---
 title: "Assignment 1"
 author: "Melih Can Akgül"
-date: "`r format(Sys.time(), '%d %B %Y')`"
+date: "26.10.2023"
 
 editor: visual
 ---

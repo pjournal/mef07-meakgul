@@ -1,8 +1,7 @@
 ---
 title: "Assignment 1"
 author: "Melih Can Akgül"
-date: "26.10.2023"
-
+date: "2023-10-26"
 editor: visual
 ---
 

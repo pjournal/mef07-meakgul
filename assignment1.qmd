@@ -1,12 +1,128 @@
 ---
 title: "Assignment 1"
-date: "2022-10-01"
+author: "Melih Can Akgül"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+
+editor: visual
 ---
 
-This is a template example qmd output page. You may see an example R code below.
+# About Me:
+
+Hello, I'm Melih. I am currently working as a business analyst at Rimteks. I am carrying out a transformation project within the company. On the other hand, I create business continuity plans and follow workflows. We frequently use data sets when schematizing process plans and taking action. In these days when data sets are as valuable as gold for organizations, I aim to improve myself in making data sets useful and get involved in possible job positions. I believe that acting in the light of data science is the most reliable and definitive way.
+
+[My Linkedin Account](https://www.linkedin.com/in/melihcanakgul)
+
+# Posit Youtube Channel Video:
+
+<iframe width="900" height="506" src="https://www.youtube.com/embed/_ahUlw0HzSc?list=PL9HYL-VRX0oTOK4cpbCbRk15K2roEgzVW" title="Richard Vogg | Examples of simulated datasets that bring value to a data-driven company | RStudio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+[Richard Vogg \| Examples of simulated datasets that bring value to a data-driven company \| RStudio](https://www.youtube.com/watch?v=_ahUlw0HzSc&list=PL9HYL-VRX0oTOK4cpbCbRk15K2roEgzVW&index=136)
+
+In this presentation, Richard Vogg talks about how he got help from business partners to use advanced techniques and what can be done to make a data project involving several teams more efficient. He states that what is required for these is that discrete independent operations on data sets can be made more effective when combined and that all tables are related on the way to the final table. He likens this plan to the small melodies in the choir aligning and combining to create a single, loud melody.
+
+In addition, Richard Vogg mentions that a good data generator has the ability to create appropriate data quickly and efficiently, and states that R has many functions and packages that help simulate independent variables and create them in a meaningful way. In other words, it is said that R has the necessary instruments for the single, high melody in the chorus.
+
+# Propose a Dataset:
+
+This data set includes chemical analysis results of wines belonging to three different classes. It is used to understand classification algorithms or learn data analysis techniques. A 13-dimensional dataset. Additionally, this dataset can also be used to apply classification or regression algorithms, perform data visualization, and evaluate model performance.
+
+1)  Alcohol
+2)  Malic acid
+3)  Ash
+4)  Alcalinity of ash
+5)  Magnesium
+6)  Total phenols
+7)  Flavanoids
+8)  Nonflavanoid phenols
+9)  Proanthocyanins
+10) Color intensity
+11) Hue
+12) OD280/OD315 of diluted wines
+13) Proline
+
+[Wine Dataset](https://archive.ics.uci.edu/dataset/109/wine)
+
+# Some R Posts:
+
+## Pie Charts
+
+A pie chart is a circular graphical view of data.
+
+Use the pie() function to draw pie charts:
 
 ```{r}
-set.seed(1)
-vec1 <- sample(LETTERS,5)
-paste0(vec1,collapse="")
+# Create data for the graph.
+geeks<- c(23, 56, 20, 63)
+labels <- c("Mumbai", "Pune", "Chennai", "Bangalore")
+ 
+# Plot the chart with title and rainbow 
+# color pallet.
+pie(geeks, labels, main = "City pie chart",
+            col = rainbow(length(geeks)))
 ```
+
+[Click for Source](https://www.geeksforgeeks.org/)
+
+## R -- Matrices
+
+In R programming, matrices are two-dimensional
+
+```{r}
+
+# R program to create a matrix
+  
+A = matrix(
+     
+  # Taking sequence of elements  
+  c(1, 2, 3, 4, 5, 6, 7, 8, 9), 
+   
+  # No of rows
+  nrow = 3,   
+   
+  # No of columns
+  ncol = 3,         
+   
+  # By default matrices are in column-wise order
+  # So this parameter decides how to arrange the matrix
+  byrow = TRUE         
+)
+  
+# Naming rows
+rownames(A) = c("a", "b", "c")
+  
+# Naming columns
+colnames(A) = c("c", "d", "e")
+  
+cat("The 3x3 matrix:\n")
+print(A)
+```
+
+[Click for Source](https://www.geeksforgeeks.org/)
+
+## Data Type
+
+Find data type of an object in R
+
+```{r}
+# A simple R program
+# to find data type of an object
+ 
+# Logical
+print(class(TRUE))
+ 
+# Integer
+print(class(3L))
+ 
+# Numeric
+print(class(10.5))
+ 
+# Complex
+print(class(1+2i))
+ 
+# Character
+print(class("12-04-2020"))
+```
+
+[Click for Source](https://www.geeksforgeeks.org/)

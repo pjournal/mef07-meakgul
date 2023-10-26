@@ -4,7 +4,7 @@ project:
 
 book:
   title: "Melih Can Akgul Progress Journal"
-  repo-url: https://github.com/pjournal/gh-pages-quarto-template
+  repo-url: https://github.com/pjournal/mef07-meakgul
   chapters:
     - index.qmd
     - assignment1.qmd
@@ -16,6 +16,4 @@ book:
 format:
   html:
     theme: cosmo
-  pdf:
-    documentclass: scrreprt
 

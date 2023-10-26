@@ -1,6 +1,22 @@
 ---
 title: "Inclass1"
 author: "Melih Can Akgül"
-date: ""
+date: "26.10.2023"
 editor: visual
 ---
+
+```{r}
+library(dplyr)
+iris %>%
+  select(Species,Petal.Length ) %>% filter(Species=="versicolor")
+
+
+
+```
+
+```{r}
+library(dplyr)
+iris %>%
+   mutate(azd = Petal.Length / ((Petal.Length / 50)^2)) %>%
+    arrange(desc(azd))
+```

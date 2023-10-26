@@ -5,4 +5,8 @@ date: ""
 editor: visual
 ---
 
-library(
+```{r}
+library(dplyr)
+starwars
+
+```

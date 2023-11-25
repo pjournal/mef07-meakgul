@@ -1,0 +1,35 @@
+---
+title: "Assignment: Shiny"
+author: "Melih Can Akgül"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: 
+  html_document:
+editor: visual
+---
+## Shiny App: Wine Quality Explorer
+
+You can run my shiny app using the following command.
+
+```{r}
+#| eval: false
+#| echo: true
+
+library(shiny)
+shiny::runGitHub("pjournal/mef07-sezerlucianturkmen", subdir = "/app/app.R")
+```
+
+## Shiny Spotify Link
+You can run my Shiny app by clicking on the image below:
+
+[![](https://i.stack.imgur.com/vqF0X.jpg)](https://melihakgul.shinyapps.io/shiny_app/)
+
+
+
+
+
+
+
+
+---
+
+Also, you can try the app on [Shinyapps](https://www.shinyapps.io/).

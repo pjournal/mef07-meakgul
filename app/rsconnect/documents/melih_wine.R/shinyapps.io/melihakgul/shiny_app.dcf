@@ -1,0 +1,12 @@
+name: shiny_app
+title: shiny_app
+username: melihakgul
+account: melihakgul
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10623874
+bundleId: 7967789
+url: https://melihakgul.shinyapps.io/shiny_app/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

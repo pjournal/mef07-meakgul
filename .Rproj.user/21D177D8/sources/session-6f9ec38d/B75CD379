@@ -1,14 +1,14 @@
 {
-    "id": "EDCF31CE",
-    "path": "~/GitHub/mef07-meakgul/assignment_shiny.qmd",
-    "project_path": "assignment_shiny.qmd",
+    "id": "B75CD379",
+    "path": "~/GitHub/mef07-meakgul/assignment1.qmd",
+    "project_path": "assignment1.qmd",
     "type": "quarto_markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1700919301526.0,
+    "created": 1700919563654.0,
     "source_on_save": false,
-    "relative_order": 2,
+    "relative_order": 4,
     "properties": {
         "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
@@ -16,16 +16,14 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "0,0",
-        "scrollLine": "0",
-        "rmdVisualModeLocation": "127:0"
+        "rmdVisualModeLocation": "91:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1700919312,
+    "lastKnownWriteTime": 1698273773,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1700919313018,
+    "last_content_update": 1698273773,
     "read_only": false,
     "read_only_alternatives": []
 }

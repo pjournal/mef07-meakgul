@@ -61,5 +61,12 @@
     "title": "2  Assignment 1",
     "section": "6.3 Data Type",
     "text": "6.3 Data Type\nFind data type of an object in R\n\n# A simple R program\n# to find data type of an object\n \n# Logical\nprint(class(TRUE))\n\n[1] \"logical\"\n\n# Integer\nprint(class(3L))\n\n[1] \"integer\"\n\n# Numeric\nprint(class(10.5))\n\n[1] \"numeric\"\n\n# Complex\nprint(class(1+2i))\n\n[1] \"complex\"\n\n# Character\nprint(class(\"12-04-2020\"))\n\n[1] \"character\"\n\n\nClick for Source"
+  },
+  {
+    "objectID": "assignment_shiny.html#shiny-app-wine-quality-explorer",
+    "href": "assignment_shiny.html#shiny-app-wine-quality-explorer",
+    "title": "3  Assignment: Shiny",
+    "section": "3.1 Shiny App: Wine Quality Explorer",
+    "text": "3.1 Shiny App: Wine Quality Explorer\nYou can run my shiny app using the following command."
   }
 ]

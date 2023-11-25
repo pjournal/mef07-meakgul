@@ -9,4 +9,8 @@ editor: visual
 
 ## Shiny App: Wine Quality Explorer
 
-You can run my shiny app using the following command.
+\[Wine Quality Explorer\](<https://melihakgul.shinyapps.io/shiny_app/>)
+
+## Command Line
+
+**shiny::runGitHub(repo = "pjournal/mef07-meakgul",subdir="app/**melih_wine.R**")**

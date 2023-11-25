@@ -67,6 +67,13 @@
     "href": "assignment_shiny.html#shiny-app-wine-quality-explorer",
     "title": "3  Assignment: Shiny",
     "section": "3.1 Shiny App: Wine Quality Explorer",
-    "text": "3.1 Shiny App: Wine Quality Explorer\nYou can run my shiny app using the following command."
+    "text": "3.1 Shiny App: Wine Quality Explorer\n[Wine Quality Explorer](https://melihakgul.shinyapps.io/shiny_app/)"
+  },
+  {
+    "objectID": "assignment_shiny.html#command-line",
+    "href": "assignment_shiny.html#command-line",
+    "title": "3  Assignment: Shiny",
+    "section": "3.2 Command Line",
+    "text": "3.2 Command Line\nshiny::runGitHub(repo = “pjournal/mef07-meakgul”,subdir=“app/melih_wine.R”)"
   }
 ]

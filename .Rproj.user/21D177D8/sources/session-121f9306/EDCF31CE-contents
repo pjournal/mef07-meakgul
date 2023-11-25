@@ -13,4 +13,4 @@ editor: visual
 
 ## Command Line
 
-**shiny::runGitHub(repo = "pjournal/mef07-meakgul",subdir="app/**melih_wine.R**")**
+**shiny::runGitHub(repo = "pjournal/mef07-meakgul",subdir="app/melih_wine.R**")

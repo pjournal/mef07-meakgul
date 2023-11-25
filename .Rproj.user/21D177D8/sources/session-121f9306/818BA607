@@ -1,14 +1,14 @@
 {
-    "id": "B75CD379",
-    "path": "~/GitHub/mef07-meakgul/assignment1.qmd",
-    "project_path": "assignment1.qmd",
+    "id": "818BA607",
+    "path": "~/GitHub/mef07g-astralprojection/assignment1.qmd",
+    "project_path": null,
     "type": "quarto_markdown",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1700919563654.0,
+    "created": 1700920300632.0,
     "source_on_save": false,
-    "relative_order": 4,
+    "relative_order": 7,
     "properties": {
         "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
@@ -16,14 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "91:0"
+        "cursorPosition": "0,0",
+        "scrollLine": "0",
+        "rmdVisualModeLocation": "2:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1698273773,
+    "lastKnownWriteTime": 1700920315,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1698273773,
+    "last_content_update": 1700920315204,
     "read_only": false,
     "read_only_alternatives": []
 }

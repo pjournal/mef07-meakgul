@@ -35,10 +35,6 @@ ui <- fluidPage(
 
 server <- function(input, output) {
 
-  filtered_data <- reactive({
-    filter(myData, quality >= input$quality_range[1] & quality <= input$quality_range[2])
-  })
-  
 
   output$winePlot <- renderPlot({
     ggplot(filtered_data(), aes(x = alcohol, y = pH, color = factor(quality))) +

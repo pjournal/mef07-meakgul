@@ -1,0 +1,36 @@
+---
+title: "OR Homework"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+editor: visual
+author: Melih Can Akgül
+---
+
+## Designing Cutting Processes with MathCutting
+
+### **Business Case:**
+
+Kaneka is a chemical manufacturing giant that produces Polyimide films. Polyimide film is a material widely used in smartphones and tablets, and Kaneka is a company with a product range of different polyimide film qualities. It produces for a highly variable market. This variability requires quick and effective response to customer demands. To plan this process effectively, Kaneka required an agile, automated production planning process to increase the efficiency of its production operations, ensure on-time delivery of goods, and effectively manage inventory levels and production bottlenecks.
+
+Please [click here](https://p1.aprimocdn.net/gurobi/dd0b0fa0-6d1c-4c89-9ea1-b021013c93c5/originalfile/Case-Study---Kaneka---Partner-October-Sky.pdf) to explore Designing Cutting Processes with MathCutting**.**
+
+### **Problem:**
+
+Having gone through the basic production processes, Polyimide film comes to the cutting process, which is one of the important parts of production. This is a bespoke process where film is cut to the required width and length and turned into products specifically tailored to specific customers. For the planning team at Kaneka's Shiga Factory, selecting materials, deciding on production sequences, and determining how and in what order the cutting would be performed was a long and complex manual process. This reduced productivity. For Kaneka, which was producing in a changing market, it made it difficult to respond to customers and also affected inventory management. For this problem, the production planning team needed an optimum, automatic production planning.
+
+### **How did MathCutting become a solution for Kaneka?**
+
+In order to increase the efficiency of the cutting process, Kaneka decided to apply the MathCutting mathematical optimization solution in the polyimide film production section of the Shiga Factory. This AI technology has fundamentally transformed the company's processes and practices and helped drive greater efficiency and optimization across the organizational structure.
+
+With MathCutting;
+
+-   It can create the most appropriate production and cutting plans quickly and automatically, saving the planning team from manual planning. It gives the team time to focus on different initiatives.
+
+-   It provides significant improvements in data usage, delivery performance and workforce productivity.
+
+-   It enables faster planning of the cutting process.
+
+-   It creates special cutting plans that enable more precise use of materials (savings).
+
+#### **The future importance of optimization for organizations:**
+
+In the developing world, companies need to benefit from artificial intelligence technologies to automate and optimize production planning and manage production operations; Optimization provides organizations with the opportunity to manage constant fluctuations in demand, problems in production processes, and customer satisfaction better than your competitors. As we saw in the Kaneka example, the organization achieved significant business benefits by using state-of-the-art mathematical optimization technologies to ensure optimal production planning and facility control. It enables businesses to make data-based decisions and increase the efficiency of their processes. These solution alternatives are created by AI and become available through human interpretation.

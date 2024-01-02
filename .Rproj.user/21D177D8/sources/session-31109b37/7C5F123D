@@ -1,14 +1,14 @@
 {
-    "id": "DA2EF077",
-    "path": "~/GitHub/mef07-meakgul/inClass2.qmd",
-    "project_path": "inClass2.qmd",
+    "id": "7C5F123D",
+    "path": "~/GitHub/mef07-meakgul/inClass1.qmd",
+    "project_path": "inClass1.qmd",
     "type": "quarto_markdown",
-    "hash": "391687812",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1700919796688.0,
+    "created": 1698342025107.0,
     "source_on_save": false,
-    "relative_order": 5,
+    "relative_order": 1,
     "properties": {
         "rmdVisualMode": "true",
         "rmdVisualWrapConfigured": "true",
@@ -16,14 +16,17 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "2:0"
+        "rmdVisualModeLocation": "2:0",
+        "cursorPosition": "0,0",
+        "scrollLine": "0",
+        "chunk_output_type": "inline"
     },
     "folds": "",
-    "lastKnownWriteTime": 1699559446,
+    "lastKnownWriteTime": 1700919312,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1699559446,
+    "last_content_update": 1700919312958,
     "read_only": false,
     "read_only_alternatives": []
 }

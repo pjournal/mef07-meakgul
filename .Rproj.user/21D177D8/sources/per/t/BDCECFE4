@@ -3,7 +3,7 @@
     "path": "~/GitHub/mef07-meakgul/index.qmd",
     "project_path": "index.qmd",
     "type": "quarto_markdown",
-    "hash": "2827699017",
+    "hash": "3842171478",
     "contents": "",
     "dirty": false,
     "created": 1704230021812.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "15,0",
+        "cursorPosition": "6,52",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1698164811,
+    "lastKnownWriteTime": 1704307301,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1698164811,
+    "last_content_update": 1704307301,
     "read_only": false,
     "read_only_alternatives": []
 }

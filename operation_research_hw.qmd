@@ -1,6 +1,6 @@
 ---
 title: "OR Homework"
-date: "`r format(Sys.time(), '%d %B %Y')`"
+date: format(Sys.time(), '%d %B %Y')
 editor: visual
 author: Melih Can Akgül
 ---
@@ -31,6 +31,6 @@ With MathCutting;
 
 -   It creates special cutting plans that enable more precise use of materials (savings).
 
-#### **The future importance of optimization for organizations:**
+### **The future importance of optimization for organizations:**
 
 In the developing world, companies need to benefit from artificial intelligence technologies to automate and optimize production planning and manage production operations; Optimization provides organizations with the opportunity to manage constant fluctuations in demand, problems in production processes, and customer satisfaction better than your competitors. As we saw in the Kaneka example, the organization achieved significant business benefits by using state-of-the-art mathematical optimization technologies to ensure optimal production planning and facility control. It enables businesses to make data-based decisions and increase the efficiency of their processes. These solution alternatives are created by AI and become available through human interpretation.

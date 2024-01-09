@@ -9,7 +9,7 @@
 <meta name="author" content="Melih Can Akgül">
 <meta name="dcterms.date" content="2023-10-26">
 
-<title>Melih Can Akgul Progress Journal - 2&nbsp; Inclass1</title>
+<title>Melih Can Akgul Progress Journal - 3&nbsp; Inclass2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,8 +66,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./inClass2.html" rel="next">
-<link href="./assignment1.html" rel="prev">
+<link href="./assignment_shiny.html" rel="next">
+<link href="./inClass1.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -110,7 +110,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./inClass1.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Inclass1</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./inClass2.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Inclass2</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -169,13 +169,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./inClass1.html" class="sidebar-item-text sidebar-link active">
+  <a href="./inClass1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Inclass1</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./inClass2.html" class="sidebar-item-text sidebar-link">
+  <a href="./inClass2.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Inclass2</span></span></a>
   </div>
 </li>
@@ -204,7 +204,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Inclass1</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Inclass2</span></h1>
 </div>
 
 
@@ -233,221 +233,53 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>iris <span class="sc">%&gt;%</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(Species,Petal.Length ) <span class="sc">%&gt;%</span> <span class="fu">filter</span>(Species<span class="sc">==</span><span class="st">"versicolor"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>wine_data <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"C:/Users/Melih/Documents/GitHub/mef07-meakgul/wine.csv"</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(wine_data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>      Species Petal.Length
-1  versicolor          4.7
-2  versicolor          4.5
-3  versicolor          4.9
-4  versicolor          4.0
-5  versicolor          4.6
-6  versicolor          4.5
-7  versicolor          4.7
-8  versicolor          3.3
-9  versicolor          4.6
-10 versicolor          3.9
-11 versicolor          3.5
-12 versicolor          4.2
-13 versicolor          4.0
-14 versicolor          4.7
-15 versicolor          3.6
-16 versicolor          4.4
-17 versicolor          4.5
-18 versicolor          4.1
-19 versicolor          4.5
-20 versicolor          3.9
-21 versicolor          4.8
-22 versicolor          4.0
-23 versicolor          4.9
-24 versicolor          4.7
-25 versicolor          4.3
-26 versicolor          4.4
-27 versicolor          4.8
-28 versicolor          5.0
-29 versicolor          4.5
-30 versicolor          3.5
-31 versicolor          3.8
-32 versicolor          3.7
-33 versicolor          3.9
-34 versicolor          5.1
-35 versicolor          4.5
-36 versicolor          4.5
-37 versicolor          4.7
-38 versicolor          4.4
-39 versicolor          4.1
-40 versicolor          4.0
-41 versicolor          4.4
-42 versicolor          4.6
-43 versicolor          4.0
-44 versicolor          3.3
-45 versicolor          4.2
-46 versicolor          4.2
-47 versicolor          4.2
-48 versicolor          4.3
-49 versicolor          3.0
-50 versicolor          4.1</code></pre>
+<pre><code>  Wine Alcohol Malic.acid  Ash  Acl  Mg Phenols Flavanoids Nonflavanoid.phenols
+1    1   14.23       1.71 2.43 15.6 127    2.80       3.06                 0.28
+2    1   13.20       1.78 2.14 11.2 100    2.65       2.76                 0.26
+3    1   13.16       2.36 2.67 18.6 101    2.80       3.24                 0.30
+4    1   14.37       1.95 2.50 16.8 113    3.85       3.49                 0.24
+5    1   13.24       2.59 2.87 21.0 118    2.80       2.69                 0.39
+6    1   14.20       1.76 2.45 15.2 112    3.27       3.39                 0.34
+  Proanth Color.int  Hue   OD Proline
+1    2.29      5.64 1.04 3.92    1065
+2    1.28      4.38 1.05 3.40    1050
+3    2.81      5.68 1.03 3.17    1185
+4    2.18      7.80 0.86 3.45    1480
+5    1.82      4.32 1.04 2.93     735
+6    1.97      6.75 1.05 2.85    1450</code></pre>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>iris <span class="sc">%&gt;%</span></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>   <span class="fu">mutate</span>(<span class="at">azd =</span> Petal.Length <span class="sc">/</span> ((Petal.Length <span class="sc">/</span> <span class="dv">50</span>)<span class="sc">^</span><span class="dv">2</span>)) <span class="sc">%&gt;%</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="fu">arrange</span>(<span class="fu">desc</span>(azd))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>    Sepal.Length Sepal.Width Petal.Length Petal.Width    Species       azd
-1            4.6         3.6          1.0         0.2     setosa 2500.0000
-2            4.3         3.0          1.1         0.1     setosa 2272.7273
-3            5.8         4.0          1.2         0.2     setosa 2083.3333
-4            5.0         3.2          1.2         0.2     setosa 2083.3333
-5            4.7         3.2          1.3         0.2     setosa 1923.0769
-6            5.4         3.9          1.3         0.4     setosa 1923.0769
-7            5.5         3.5          1.3         0.2     setosa 1923.0769
-8            4.4         3.0          1.3         0.2     setosa 1923.0769
-9            5.0         3.5          1.3         0.3     setosa 1923.0769
-10           4.5         2.3          1.3         0.3     setosa 1923.0769
-11           4.4         3.2          1.3         0.2     setosa 1923.0769
-12           5.1         3.5          1.4         0.2     setosa 1785.7143
-13           4.9         3.0          1.4         0.2     setosa 1785.7143
-14           5.0         3.6          1.4         0.2     setosa 1785.7143
-15           4.6         3.4          1.4         0.3     setosa 1785.7143
-16           4.4         2.9          1.4         0.2     setosa 1785.7143
-17           4.8         3.0          1.4         0.1     setosa 1785.7143
-18           5.1         3.5          1.4         0.3     setosa 1785.7143
-19           5.2         3.4          1.4         0.2     setosa 1785.7143
-20           5.5         4.2          1.4         0.2     setosa 1785.7143
-21           4.9         3.6          1.4         0.1     setosa 1785.7143
-22           4.8         3.0          1.4         0.3     setosa 1785.7143
-23           4.6         3.2          1.4         0.2     setosa 1785.7143
-24           5.0         3.3          1.4         0.2     setosa 1785.7143
-25           4.6         3.1          1.5         0.2     setosa 1666.6667
-26           5.0         3.4          1.5         0.2     setosa 1666.6667
-27           4.9         3.1          1.5         0.1     setosa 1666.6667
-28           5.4         3.7          1.5         0.2     setosa 1666.6667
-29           5.7         4.4          1.5         0.4     setosa 1666.6667
-30           5.1         3.8          1.5         0.3     setosa 1666.6667
-31           5.1         3.7          1.5         0.4     setosa 1666.6667
-32           5.2         3.5          1.5         0.2     setosa 1666.6667
-33           5.4         3.4          1.5         0.4     setosa 1666.6667
-34           5.2         4.1          1.5         0.1     setosa 1666.6667
-35           4.9         3.1          1.5         0.2     setosa 1666.6667
-36           5.1         3.4          1.5         0.2     setosa 1666.6667
-37           5.3         3.7          1.5         0.2     setosa 1666.6667
-38           4.8         3.4          1.6         0.2     setosa 1562.5000
-39           5.0         3.0          1.6         0.2     setosa 1562.5000
-40           5.0         3.4          1.6         0.4     setosa 1562.5000
-41           4.7         3.2          1.6         0.2     setosa 1562.5000
-42           4.8         3.1          1.6         0.2     setosa 1562.5000
-43           5.0         3.5          1.6         0.6     setosa 1562.5000
-44           5.1         3.8          1.6         0.2     setosa 1562.5000
-45           5.4         3.9          1.7         0.4     setosa 1470.5882
-46           5.7         3.8          1.7         0.3     setosa 1470.5882
-47           5.4         3.4          1.7         0.2     setosa 1470.5882
-48           5.1         3.3          1.7         0.5     setosa 1470.5882
-49           4.8         3.4          1.9         0.2     setosa 1315.7895
-50           5.1         3.8          1.9         0.4     setosa 1315.7895
-51           5.1         2.5          3.0         1.1 versicolor  833.3333
-52           4.9         2.4          3.3         1.0 versicolor  757.5758
-53           5.0         2.3          3.3         1.0 versicolor  757.5758
-54           5.0         2.0          3.5         1.0 versicolor  714.2857
-55           5.7         2.6          3.5         1.0 versicolor  714.2857
-56           5.6         2.9          3.6         1.3 versicolor  694.4444
-57           5.5         2.4          3.7         1.0 versicolor  675.6757
-58           5.5         2.4          3.8         1.1 versicolor  657.8947
-59           5.2         2.7          3.9         1.4 versicolor  641.0256
-60           5.6         2.5          3.9         1.1 versicolor  641.0256
-61           5.8         2.7          3.9         1.2 versicolor  641.0256
-62           5.5         2.3          4.0         1.3 versicolor  625.0000
-63           6.0         2.2          4.0         1.0 versicolor  625.0000
-64           6.1         2.8          4.0         1.3 versicolor  625.0000
-65           5.5         2.5          4.0         1.3 versicolor  625.0000
-66           5.8         2.6          4.0         1.2 versicolor  625.0000
-67           5.8         2.7          4.1         1.0 versicolor  609.7561
-68           5.6         3.0          4.1         1.3 versicolor  609.7561
-69           5.7         2.8          4.1         1.3 versicolor  609.7561
-70           5.9         3.0          4.2         1.5 versicolor  595.2381
-71           5.6         2.7          4.2         1.3 versicolor  595.2381
-72           5.7         3.0          4.2         1.2 versicolor  595.2381
-73           5.7         2.9          4.2         1.3 versicolor  595.2381
-74           6.4         2.9          4.3         1.3 versicolor  581.3953
-75           6.2         2.9          4.3         1.3 versicolor  581.3953
-76           6.7         3.1          4.4         1.4 versicolor  568.1818
-77           6.6         3.0          4.4         1.4 versicolor  568.1818
-78           6.3         2.3          4.4         1.3 versicolor  568.1818
-79           5.5         2.6          4.4         1.2 versicolor  568.1818
-80           6.4         3.2          4.5         1.5 versicolor  555.5556
-81           5.7         2.8          4.5         1.3 versicolor  555.5556
-82           5.6         3.0          4.5         1.5 versicolor  555.5556
-83           6.2         2.2          4.5         1.5 versicolor  555.5556
-84           6.0         2.9          4.5         1.5 versicolor  555.5556
-85           5.4         3.0          4.5         1.5 versicolor  555.5556
-86           6.0         3.4          4.5         1.6 versicolor  555.5556
-87           4.9         2.5          4.5         1.7  virginica  555.5556
-88           6.5         2.8          4.6         1.5 versicolor  543.4783
-89           6.6         2.9          4.6         1.3 versicolor  543.4783
-90           6.1         3.0          4.6         1.4 versicolor  543.4783
-91           7.0         3.2          4.7         1.4 versicolor  531.9149
-92           6.3         3.3          4.7         1.6 versicolor  531.9149
-93           6.1         2.9          4.7         1.4 versicolor  531.9149
-94           6.1         2.8          4.7         1.2 versicolor  531.9149
-95           6.7         3.1          4.7         1.5 versicolor  531.9149
-96           5.9         3.2          4.8         1.8 versicolor  520.8333
-97           6.8         2.8          4.8         1.4 versicolor  520.8333
-98           6.2         2.8          4.8         1.8  virginica  520.8333
-99           6.0         3.0          4.8         1.8  virginica  520.8333
-100          6.9         3.1          4.9         1.5 versicolor  510.2041
-101          6.3         2.5          4.9         1.5 versicolor  510.2041
-102          5.6         2.8          4.9         2.0  virginica  510.2041
-103          6.3         2.7          4.9         1.8  virginica  510.2041
-104          6.1         3.0          4.9         1.8  virginica  510.2041
-105          6.7         3.0          5.0         1.7 versicolor  500.0000
-106          5.7         2.5          5.0         2.0  virginica  500.0000
-107          6.0         2.2          5.0         1.5  virginica  500.0000
-108          6.3         2.5          5.0         1.9  virginica  500.0000
-109          6.0         2.7          5.1         1.6 versicolor  490.1961
-110          5.8         2.7          5.1         1.9  virginica  490.1961
-111          6.5         3.2          5.1         2.0  virginica  490.1961
-112          5.8         2.8          5.1         2.4  virginica  490.1961
-113          6.3         2.8          5.1         1.5  virginica  490.1961
-114          6.9         3.1          5.1         2.3  virginica  490.1961
-115          5.8         2.7          5.1         1.9  virginica  490.1961
-116          5.9         3.0          5.1         1.8  virginica  490.1961
-117          6.7         3.0          5.2         2.3  virginica  480.7692
-118          6.5         3.0          5.2         2.0  virginica  480.7692
-119          6.4         2.7          5.3         1.9  virginica  471.6981
-120          6.4         3.2          5.3         2.3  virginica  471.6981
-121          6.9         3.1          5.4         2.1  virginica  462.9630
-122          6.2         3.4          5.4         2.3  virginica  462.9630
-123          6.8         3.0          5.5         2.1  virginica  454.5455
-124          6.5         3.0          5.5         1.8  virginica  454.5455
-125          6.4         3.1          5.5         1.8  virginica  454.5455
-126          6.3         2.9          5.6         1.8  virginica  446.4286
-127          6.4         2.8          5.6         2.1  virginica  446.4286
-128          6.4         2.8          5.6         2.2  virginica  446.4286
-129          6.1         2.6          5.6         1.4  virginica  446.4286
-130          6.3         3.4          5.6         2.4  virginica  446.4286
-131          6.7         3.1          5.6         2.4  virginica  446.4286
-132          6.9         3.2          5.7         2.3  virginica  438.5965
-133          6.7         3.3          5.7         2.1  virginica  438.5965
-134          6.7         3.3          5.7         2.5  virginica  438.5965
-135          6.5         3.0          5.8         2.2  virginica  431.0345
-136          6.7         2.5          5.8         1.8  virginica  431.0345
-137          7.2         3.0          5.8         1.6  virginica  431.0345
-138          7.1         3.0          5.9         2.1  virginica  423.7288
-139          6.8         3.2          5.9         2.3  virginica  423.7288
-140          6.3         3.3          6.0         2.5  virginica  416.6667
-141          7.2         3.2          6.0         1.8  virginica  416.6667
-142          7.2         3.6          6.1         2.5  virginica  409.8361
-143          7.4         2.8          6.1         1.9  virginica  409.8361
-144          7.7         3.0          6.1         2.3  virginica  409.8361
-145          7.3         2.9          6.3         1.8  virginica  396.8254
-146          7.9         3.8          6.4         2.0  virginica  390.6250
-147          7.6         3.0          6.6         2.1  virginica  378.7879
-148          7.7         3.8          6.7         2.2  virginica  373.1343
-149          7.7         2.8          6.7         2.0  virginica  373.1343
-150          7.7         2.6          6.9         2.3  virginica  362.3188</code></pre>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(wine_data, <span class="fu">aes</span>(<span class="at">x =</span> Flavanoids, <span class="at">y =</span> Phenols, <span class="at">color =</span> <span class="fu">factor</span>(Wine))) <span class="sc">+</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Flavanoids vs Phenols by Wine"</span>,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Flavanoids"</span>,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Phenols"</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">color =</span> <span class="st">"Wine Class"</span>) <span class="sc">+</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="inClass2_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
+<p>In the wine industry, flavonoids and phenols play a crucial role. Phenols encompass many components naturally found in plants. Flavonoids, specifically those found in grape skins during the wine production process, contribute color and character to the wine. In the wine industry, particularly in grapes and the wine production process, phenolic and flavonoid components play a significant role. As seen in the graph, the quality of the wine class increases as the values of phenols and flavonoids rise.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(wine_data, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">factor</span>(Wine), <span class="at">y =</span> Hue, <span class="at">fill =</span> <span class="fu">factor</span>(Wine))) <span class="sc">+</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>) <span class="sc">+</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Bar Chart: Hue by Wine"</span>,</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Wine"</span>,</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Hue"</span>,</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>       <span class="at">fill =</span> <span class="st">"Wine"</span>) <span class="sc">+</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="inClass2_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Hue (Color Tone): It is a measure indicating the color tone of wine, commonly used for red wines, evaluating whether the wine exhibits hues of blue, purple, orange, or red. The color tone can vary depending on factors such as grape variety, ripeness level, and fermentation process. As seen from the graph, wines of good quality tend to have high Hue values</p>
 
 
 
@@ -687,13 +519,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./assignment1.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Assignment 1</span></span>
+      <a href="./inClass1.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Inclass1</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./inClass2.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Inclass2</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./assignment_shiny.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Assignment: Shiny</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

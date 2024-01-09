@@ -1,0 +1,7 @@
+"0","ggplot(wine_data, aes(x = factor(Wine), y = Hue, fill = factor(Wine))) +"
+"0","  geom_bar(stat = ""identity"") +"
+"0","  labs(title = ""Bar Chart: Hue by Wine"","
+"0","       x = ""Wine"","
+"0","       y = ""Hue"","
+"0","       fill = ""Wine"") +"
+"0","  theme_minimal()"

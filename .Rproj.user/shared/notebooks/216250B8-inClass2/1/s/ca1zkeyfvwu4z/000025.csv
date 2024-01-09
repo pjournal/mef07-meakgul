@@ -1,0 +1,8 @@
+"0","ggplot(wine_data, aes(x = Flavanoids, y = Phenols, color = factor(Wine))) +"
+"0","  geom_point() +"
+"0","  labs(title = ""Flavanoids vs Phenols by Wine"","
+"0","       x = ""Flavanoids"","
+"0","       y = ""Phenols"","
+"0","       color = ""Wine Class"") +"
+"0","  theme_minimal()"
+"0",""

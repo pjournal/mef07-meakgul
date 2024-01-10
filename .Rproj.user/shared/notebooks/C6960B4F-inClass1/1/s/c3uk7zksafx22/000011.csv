@@ -1,0 +1,5 @@
+"0","library(dplyr)"
+"0","azdrate<-iris %>%"
+"0","   mutate(azd = Petal.Length / ((Petal.Length / 50)^2)) %>%"
+"0","    arrange(desc(azd))"
+"0","head(azdrate,10)"

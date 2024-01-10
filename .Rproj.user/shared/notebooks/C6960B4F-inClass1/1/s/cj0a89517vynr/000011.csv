@@ -1,0 +1,4 @@
+"0","library(dplyr)"
+"0","versicolor <- iris %>%"
+"0","  select(Species,Petal.Length ) %>% filter(Species==""versicolor"")"
+"0","head(versicolor,10)"
